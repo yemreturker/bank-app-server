@@ -1,0 +1,36 @@
+# Go modülleri ve bağımlılıklar
+/go.sum
+/go.mod
+
+# SQLite veritabanı dosyası
+*.db
+
+# Derlenmiş dosyalar
+*.exe
+*.log
+*.out
+*.bin
+
+# IDE ve editör tarafından oluşturulan geçici dosyalar
+.vscode/
+.idea/
+*.swp
+
+# OS X ve diğer işletim sistemlerine özgü dosyalar
+.DS_Store
+Thumbs.db
+
+# Go cache ve mod cache
+/go/pkg/
+/go/bin/
+/go/src/pkg/
+
+# Go test coverage ve sonuç dosyaları
+*.test
+*.cov
+*.cover
+
+# Diğer geçici ve gereksiz dosyalar
+*.tmp
+*.bak
+*.lock
